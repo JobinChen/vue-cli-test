@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+console.log('22222222222')
+const program = require('commander')
+const { clone } = require('../lib/download')
+   
+  program.version(require('../package').version)
+          .command('init <projectName>')
+          .action(async projectName => await clone('github:su37josephxia/vue-template', projectName))
+  program.command('refresh','...refresh')
+  program.parse(process.argv)

@@ -1,0 +1,30 @@
+{
+  "name": "vue-cli-test",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czq123/vue-cli-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/czq123/vue-cli-test/issues"
+  },
+  "homepage": "https://github.com/czq123/vue-cli-test#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "download-git-repo": "^3.0.2",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.5.3",
+    "log-symbols": "^3.0.0",
+    "ora": "^4.0.3",
+    "util": "^0.12.1"
+  }
+}
